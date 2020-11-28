@@ -8,6 +8,7 @@
     margin: 40px auto; */
   }
   
+  
   #notes-form input{
     background-color: rgba(27, 112, 137, 1);
     border: 0; 
@@ -19,6 +20,7 @@
     padding: 0 20px;
     font-size: 18px;
     border-radius: 10px;
+    
   }
   #notes-form textarea{
     background-color: rgba(27, 112, 137, 1);

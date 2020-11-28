@@ -70,8 +70,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="container site-wrapper">
-          <div className="row">
-
+          <div className="row ">
             <div className="col-12">
               <div className="form-wrapper shadow">
                 <form id="notes-form" className="my-0" onSubmit={this.addItem}>
@@ -95,7 +94,8 @@ class App extends React.Component {
           <div className="row">
             <List items={this.state.items}
               deleteItem={this.deleteItem}
-            // date={this.state.key}
+              handleTitle={this.handleTitle}
+              handleInput={this.handleInput}
             ></List>
           </div>
         </div>
